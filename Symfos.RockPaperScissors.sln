@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Symfos.RockPaperScissors", "Symfos.RockPaperScissors\Symfos.RockPaperScissors.csproj", "{DC1846FF-3FEC-4567-B511-3F95EBB3B427}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Symfos.RockPaperScissors.Tests", "Symfos.RockPaperScissors.Tests\Symfos.RockPaperScissors.Tests.csproj", "{DC5EDC8E-C144-43B3-8918-1198907A5070}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC1846FF-3FEC-4567-B511-3F95EBB3B427}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC1846FF-3FEC-4567-B511-3F95EBB3B427}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC1846FF-3FEC-4567-B511-3F95EBB3B427}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC1846FF-3FEC-4567-B511-3F95EBB3B427}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC5EDC8E-C144-43B3-8918-1198907A5070}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC5EDC8E-C144-43B3-8918-1198907A5070}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC5EDC8E-C144-43B3-8918-1198907A5070}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC5EDC8E-C144-43B3-8918-1198907A5070}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {776CC8B1-D40F-4E41-A65F-2660E0D9155C}
+	EndGlobalSection
+EndGlobal
