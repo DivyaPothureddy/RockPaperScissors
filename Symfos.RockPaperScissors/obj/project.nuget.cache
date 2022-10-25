@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "e7lGqHg8RKXHcfBpUMLhQEg0NSmjOhiF9h7ikwNorXPPPCvBC5QYIx0u3PQClUCteYG6IW3cmdTHRkjHOn3kJQ==",
+  "success": true,
+  "projectFilePath": "C:\\C#Programes\\Symfos.RockPaperScissors\\Symfos.RockPaperScissors\\Symfos.RockPaperScissors.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\harik\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.18\\microsoft.netcore.app.host.win-x64.3.1.18.nupkg.sha512"
+  ],
+  "logs": []
+}

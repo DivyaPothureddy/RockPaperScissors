@@ -1,0 +1,28 @@
+﻿@model ComputerVsComputerViewModel
+<h1>
+
+    <label asp-for="@Model.Mode">@Model.Mode</label>
+
+</h1>
+<div>
+    <label asp-for="@Model.Results.Wins">Wins :@Model.Results.Wins</label>
+    <label asp-for="@Model.Results.Draws">Draws :@Model.Results.Draws</label>
+    <label asp-for="@Model.Results.Loses">Loses :@Model.Results.Loses</label>
+</div>
+
+<div>
+    <label asp-for="@Model.PlayerChoice" hidden="@(Model.PlayerChoice == Choice.Invalid)">PlayerA Choose :@Model.PlayerChoice</label>
+</div>
+<div>
+    <label asp-for="@Model.ComputerChoice" hidden="@(Model.ComputerChoice == Choice.Invalid)">PlayerB Choose :@Model.ComputerChoice</label>
+</div>
+<div> 
+    <label asp-for="@Model.Result" hidden="@(Model.Result == Result.Invalid)">Result:  @Model.Result</label>
+</div>
+<div>
+    <form method="post">
+        <input type="hidden" asp-for="@Model.Mode" value="@Model.Mode" />
+        <input asp-action="ComputerVsComputerResult" asp-controller="Home" type="submit" name="Play" value="Play" />
+    </form>
+</div>
+    <a asp-action="Index" asp-controller="Home">Go Home</a>
